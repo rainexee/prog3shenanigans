@@ -1,0 +1,25 @@
+/* Note: The only files that I have managed to make it OOP approach are:
+
+CharacterCreation.java now has different java classes added:
+- ChooseJob.java
+- ChooseName.java
+
+
+EldenRogue.java has been changed
+TitleScreen.java (Now includes a new java class named UserInput.java. This UserInput class will be used on other java files as well)
+
+GameLobby now has dfferent java files added:
+- FastTravel.java
+- LevelUp.java
+
+There are logical errors/bugs as of this implementation:
+
+- In AREA_1, if the player tile "goes to the door tile "D", it will go straight to the next floor instead of cancelling it out by not pressing "E".
+
+
+===========================================
+Also note: the only files I didn't touch are GameLobby.java and Item.java because it might lead to more conflicting errors
+
+So what I did is to create GameLobby (Andre's version where you will merge it).java.
+
+We still need to make it oop approach so lets keep up the grind!
